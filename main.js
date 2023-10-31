@@ -6,7 +6,10 @@ const listaDeBotoes = document.querySelectorAll('.tecla')=tocasompom
 
 let contador = 0
 
-while (contador < 9) {
+
+
+while (contador < listaDebotoes.lenth) {
 listaDeBotoes[contador].onclick = tocasompom;
-contador = contador + 1;
+console.log("contador:" + contador);
+ contador += 1;
 }
